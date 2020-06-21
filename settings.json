@@ -19,7 +19,8 @@
 				"linter-ui-default",
 				"activate-power-mode",
 				"language-gfm",
-				"markdown-preview"
+				"markdown-preview",
+				"autocomplete-paths"
 			],
 			"openEmptyEditorOnStart": false,
 			"restorePreviousWindowsOnStart": "no",
@@ -34,6 +35,7 @@
 			"theme": "nightlion"
 		},
 		"editor": {
+			"fontSize": 13,
 			"invisibles": {},
 			"preferredLineLength": 100,
 			"scrollPastEnd": true,
@@ -44,6 +46,9 @@
 			"userId": "0de6819b-4432-47c1-a890-45133950981b"
 		},
 		"gcc-make-run": {},
+		"github": {
+			"viewChangesForCurrentFileDiffPaneSplitDirection": "down"
+		},
 		"gtk-dark-theme": {},
 		"language-markdown": {},
 		"linter": {},
