@@ -339,6 +339,9 @@
 	"sync-settings": {
 		"version": "4.3.3"
 	},
+	"sync-settings-folder-location": {
+		"version": "1.0.8"
+	},
 	"sync-settings-git-location": {
 		"version": "1.0.7"
 	},

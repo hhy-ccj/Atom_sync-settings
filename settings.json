@@ -20,7 +20,9 @@
 				"activate-power-mode",
 				"language-gfm",
 				"markdown-preview",
-				"autocomplete-paths"
+				"autocomplete-paths",
+				"simplified-chinese-menu",
+				"sync-settings-folder-location"
 			],
 			"openEmptyEditorOnStart": false,
 			"restorePreviousWindowsOnStart": "no",
@@ -79,6 +81,9 @@
 		"sync-settings": {
 			"hiddenSettings": {},
 			"useOtherLocation": true
+		},
+		"sync-settings-folder-location": {
+			"folderPath": "D:\\hhy\\Atom_sync_local"
 		},
 		"sync-settings-git-location": {
 			"gitUrl": "https://github.com/hhy-ccj/Atom_sync-settings"
