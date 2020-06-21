@@ -91,6 +91,14 @@
 	"dev-live-reload": {
 		"version": "0.48.1"
 	},
+	"dracula-syntax": {
+		"version": "3.0.2",
+		"theme": "syntax"
+	},
+	"dracula-ui": {
+		"version": "0.6.0",
+		"theme": "ui"
+	},
 	"encoding-selector": {
 		"version": "0.23.9"
 	},
