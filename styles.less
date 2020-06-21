@@ -30,3 +30,26 @@ atom-text-editor {
 atom-text-editor .cursor {
   // border-color: red;
 }
+
+// window配置
+@randomNumber: 'http://img.3dmgame.com/uploads/allimg/170710/316-1FG0140Q7.jpg';
+// @randomNumber: 'D:/hhy/bizhi/123.jpg';
+
+.scroll-view::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  background:url(@randomNumber) no-repeat bottom center;
+  // background: @randomNumber;
+  background-size:100% ;
+  // background-size:contain;
+  z-index: -1;
+}
+.editor {
+  background: rgba(10, 10, 10, .7);
+  // background: rgba(203,237, 204, .8);
+}
