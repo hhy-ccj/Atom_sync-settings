@@ -1,0 +1,84 @@
+{
+	"*": {
+		"activate-power-mode": {
+			"plugins": {
+				"playAudio": true,
+				"screenShake": true
+			}
+		},
+		"core": {
+			"autoHideMenuBar": true,
+			"closeDeletedFileTabs": true,
+			"disabledPackages": [
+				"atom-ide-ui",
+				"busy-signal",
+				"gcc-make-run",
+				"linter",
+				"intentions",
+				"linter-gcc",
+				"linter-ui-default",
+				"activate-power-mode",
+				"language-gfm",
+				"markdown-preview"
+			],
+			"openEmptyEditorOnStart": false,
+			"telemetryConsent": "no",
+			"themes": [
+				"atom-material-ui",
+				"base16-tomorrow-dark-theme"
+			],
+			"uriHandlerRegistration": "always"
+		},
+		"dev-tools-themes": {
+			"theme": "nightlion"
+		},
+		"editor": {
+			"fontSize": 16,
+			"invisibles": {},
+			"preferredLineLength": 100,
+			"scrollPastEnd": true,
+			"showIndentGuide": true,
+			"softWrap": true
+		},
+		"exception-reporting": {
+			"userId": "0de6819b-4432-47c1-a890-45133950981b"
+		},
+		"gcc-make-run": {},
+		"gtk-dark-theme": {},
+		"language-markdown": {},
+		"linter": {},
+		"linter-gcc": {
+			"compileCommandsFile": "./compile_commands.json",
+			"execPath": "gcc",
+			"gccIncludePaths": " .",
+			"gccLintOnTheFly": true,
+			"gccLintOnTheFlyInterval": 1000
+		},
+		"linter-ui-default": {
+			"panelHeight": 284
+		},
+		"markdown-preview": {
+			"useGitHubStyle": true
+		},
+		"markdown-preview-plus": {
+			"syntaxThemeName": "one-light-syntax",
+			"useGitHubStyle": true
+		},
+		"minimap": {
+			"displayMinimapOnLeft": true,
+			"plugins": {
+				"minimap-quick-highlight": true,
+				"minimap-quick-highlightDecorationsZIndex": 0
+			}
+		},
+		"sync-settings": {
+			"useOtherLocation": true
+		},
+		"sync-settings-git-location": {
+			"gitUrl": "https://github.com/hhy-ccj/Atom_sync-settings"
+		},
+		"welcome": {
+			"showOnStartup": false
+		}
+	}
+}
