@@ -31,34 +31,23 @@
 # Atom Flight Manual:
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#configuring-with-cson
 
-# ------------------------------------
-# For vim-mode-plus key remap
-# ------------------------------------
-# Vim normal mode
+# for vim-mode-plus key remap
+# move the cursor in normal mode
 'atom-text-editor.vim-mode-plus:not(.insert-mode)':
-  # Move the cursor
   '; e': 'vim-mode-plus:move-to-last-character-of-line'
   '; h': 'vim-mode-plus:move-to-first-character-of-line'
   'K': 'custom:do-5-k'
   'J': 'custom:do-5-j'
   'H': 'custom:do-5-h'
   'L': 'custom:do-5-l'
-  # Copy the vim command mode
+# copy the vim command mode
   'space': 'command-palette:toggle'
-  # Paste the 0 register
+# paste the 0 register
   '; p': 'custom:paste-0-reg'
-  # Move to other pane
   'ctrl-k': 'window:focus-pane-above'
   'ctrl-j': 'window:focus-pane-below'
   'ctrl-h': 'window:focus-pane-on-left'
   'ctrl-l': 'window:focus-pane-on-right'
-# Vim insert mode
-'atom-text-editor.vim-mode-plus.insert-mode':
-  # Move the cursor
-  'ctrl-k': 'vim-mode-plus:move-up'
-  'ctrl-j': 'vim-mode-plus:move-down'
-  'ctrl-h': 'vim-mode-plus:move-left'
-  'ctrl-l': 'vim-mode-plus:move-right'
 
 # When autocomplete plus pop-up active in insert-mode
 'atom-text-editor.vim-mode-plus.insert-mode.autocomplete-active':
@@ -69,7 +58,3 @@
 '.select-list atom-text-editor':
   'ctrl-k': 'core:move-up'
   'ctrl-j': 'core:move-down'
-
-# Toggle-line-comments
-'atom-workspace atom-text-editor:not([mini])':
-  '; / /': 'editor:toggle-line-comments' # default:'ctrl-/'
