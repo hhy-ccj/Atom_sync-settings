@@ -73,3 +73,4 @@
 # Toggle-line-comments
 'atom-workspace atom-text-editor:not([mini])':
   '; / /': 'editor:toggle-line-comments' # default:'ctrl-/'
+  
