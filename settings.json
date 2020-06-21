@@ -22,13 +22,13 @@
 				"markdown-preview"
 			],
 			"openEmptyEditorOnStart": false,
+			"restorePreviousWindowsOnStart": "no",
 			"telemetryConsent": "no",
 			"themes": [
 				"atom-material-ui",
 				"base16-tomorrow-dark-theme"
 			],
-			"uriHandlerRegistration": "always",
-			"restorePreviousWindowsOnStart": "no"
+			"uriHandlerRegistration": "always"
 		},
 		"dev-tools-themes": {
 			"theme": "nightlion"
@@ -73,14 +73,12 @@
 			}
 		},
 		"sync-settings": {
-			"useOtherLocation": true,
-			"hiddenSettings": {}
+			"hiddenSettings": {},
+			"useOtherLocation": true
 		},
 		"sync-settings-git-location": {
 			"gitUrl": "https://github.com/hhy-ccj/Atom_sync-settings"
 		},
-		"welcome": {
-			"showOnStartup": false
-		}
+		"welcome": {}
 	}
 }
