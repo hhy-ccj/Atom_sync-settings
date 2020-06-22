@@ -67,7 +67,7 @@
 			"useGitHubStyle": true
 		},
 		"markdown-preview-plus": {
-			"syntaxThemeName": "dracula-syntax",
+			"syntaxThemeName": "one-light-syntax",
 			"useGitHubStyle": true
 		},
 		"minimap": {
