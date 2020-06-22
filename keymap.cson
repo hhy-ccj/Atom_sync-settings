@@ -73,4 +73,9 @@
 # Toggle-line-comments
 'atom-workspace atom-text-editor:not([mini])':
   '; / /': 'editor:toggle-line-comments' # default:'ctrl-/'
-  
+
+# Toggle-line-comments
+'atom-text-editor':
+  'f2': 'unset!' # default cmd:'bookmarks:jump-to-next-bookmark':
+'.platform-win32, .platform-linux':
+  'f2': 'tree-view:toggle' # default:'ctrl-\\'

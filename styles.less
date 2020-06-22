@@ -31,7 +31,10 @@ atom-text-editor .cursor {
   // border-color: red;
 }
 
-// window 背景插图配置
+
+/*
+**  window 背景插图配置
+*/
 @randomNumber: 'http://img.3dmgame.com/uploads/allimg/170710/316-1FG0140Q7.jpg';
 // @randomNumber: 'http://img.zcool.cn/community/01574c57a97f660000012e7ec2bec6.jpg';
 // @randomNumber: 'http://gss0.baidu.com/-4o3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/0b55b319ebc4b74527c710d7c8fc1e178b82159b.jpg';
@@ -49,12 +52,14 @@ atom-text-editor .cursor {
   width: 100%;
   height: 100%;
   opacity: 1;
+  // background:url(@randomNumber);
   background:url(@randomNumber) no-repeat bottom center;
   // background: @randomNumber;
   // background-size:100%;
   background-size:contain;
   z-index: -1;
 }
+
 .editor {
   background: rgba(10, 10, 10, .8);
   // background: rgba(203,237, 204, .8);

@@ -37,7 +37,6 @@
 			"theme": "nightlion"
 		},
 		"editor": {
-			"fontSize": 13,
 			"invisibles": {},
 			"preferredLineLength": 500,
 			"scrollPastEnd": true,
