@@ -17,7 +17,6 @@
 				"intentions",
 				"linter-gcc",
 				"linter-ui-default",
-				"activate-power-mode",
 				"language-gfm",
 				"markdown-preview",
 				"autocomplete-paths",
@@ -71,7 +70,6 @@
 			"useGitHubStyle": true
 		},
 		"minimap": {
-			"displayMinimapOnLeft": true,
 			"plugins": {
 				"minimap-quick-highlight": true,
 				"minimap-quick-highlightDecorationsZIndex": 0
