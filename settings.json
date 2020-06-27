@@ -12,16 +12,13 @@
 			"disabledPackages": [
 				"atom-ide-ui",
 				"busy-signal",
-				"gcc-make-run",
-				"linter",
 				"intentions",
-				"linter-gcc",
-				"linter-ui-default",
 				"language-gfm",
 				"markdown-preview",
-				"autocomplete-paths",
+				"sync-settings-folder-location",
+				"gcc-make-run",
 				"simplified-chinese-menu",
-				"sync-settings-folder-location"
+				"quick-highlight"
 			],
 			"openEmptyEditorOnStart": false,
 			"restorePreviousWindowsOnStart": "no",
@@ -50,17 +47,21 @@
 			"viewChangesForCurrentFileDiffPaneSplitDirection": "down"
 		},
 		"gtk-dark-theme": {},
+		"highlight-selected": {
+			"showResultsOnScrollBar": true
+		},
 		"language-markdown": {},
 		"linter": {},
 		"linter-gcc": {
 			"compileCommandsFile": "./compile_commands.json",
 			"execPath": "gcc",
-			"gccIncludePaths": " .",
+			"gccDebug": true,
 			"gccLintOnTheFly": true,
-			"gccLintOnTheFlyInterval": 1000
+			"gccLintOnTheFlyInterval": 1000,
+			"gccRelintMessageSources": true
 		},
 		"linter-ui-default": {
-			"panelHeight": 284
+			"panelHeight": 157.33334350585938
 		},
 		"markdown-preview": {
 			"useGitHubStyle": true
@@ -70,7 +71,10 @@
 			"useGitHubStyle": true
 		},
 		"minimap": {
+			"displayMinimapOnLeft": true,
 			"plugins": {
+				"highlight-selected": true,
+				"highlight-selectedDecorationsZIndex": 0,
 				"minimap-quick-highlight": true,
 				"minimap-quick-highlightDecorationsZIndex": 0
 			}

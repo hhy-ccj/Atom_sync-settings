@@ -132,6 +132,9 @@
 	"grammar-selector": {
 		"version": "0.50.1"
 	},
+	"highlight-selected": {
+		"version": "0.17.0"
+	},
 	"image-view": {
 		"version": "0.64.0"
 	},
@@ -278,6 +281,9 @@
 	},
 	"minimap": {
 		"version": "4.29.9"
+	},
+	"minimap-highlight-selected": {
+		"version": "4.6.1"
 	},
 	"notifications": {
 		"version": "0.71.0"
