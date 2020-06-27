@@ -17,8 +17,7 @@
 				"markdown-preview",
 				"sync-settings-folder-location",
 				"gcc-make-run",
-				"simplified-chinese-menu",
-				"quick-highlight"
+				"simplified-chinese-menu"
 			],
 			"openEmptyEditorOnStart": false,
 			"restorePreviousWindowsOnStart": "no",
