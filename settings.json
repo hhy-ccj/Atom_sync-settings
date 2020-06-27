@@ -6,6 +6,9 @@
 				"screenShake": true
 			}
 		},
+		"atom-cscope": {
+			"EnableHistory": true
+		},
 		"core": {
 			"autoHideMenuBar": true,
 			"closeDeletedFileTabs": true,
@@ -17,7 +20,11 @@
 				"markdown-preview",
 				"sync-settings-folder-location",
 				"gcc-make-run",
-				"simplified-chinese-menu"
+				"simplified-chinese-menu",
+				"linter",
+				"linter-gcc",
+				"linter-ui-default",
+				"symbols-view"
 			],
 			"openEmptyEditorOnStart": false,
 			"restorePreviousWindowsOnStart": "no",
@@ -45,6 +52,9 @@
 		"github": {
 			"viewChangesForCurrentFileDiffPaneSplitDirection": "down"
 		},
+		"goto-definition": {
+			"contextMenuDisplayAtFirst": false
+		},
 		"gtk-dark-theme": {},
 		"highlight-selected": {
 			"showResultsOnScrollBar": true
@@ -60,7 +70,8 @@
 			"gccRelintMessageSources": true
 		},
 		"linter-ui-default": {
-			"panelHeight": 157.33334350585938
+			"panelHeight": 157.33334350585938,
+			"showPanel": true
 		},
 		"markdown-preview": {
 			"useGitHubStyle": true
@@ -90,6 +101,9 @@
 		},
 		"welcome": {
 			"showOnStartup": false
+		},
+		"atom-ctags": {
+			"autoBuildTagsWhenActive": true
 		}
 	}
 }
