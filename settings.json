@@ -9,6 +9,9 @@
 		"atom-cscope": {
 			"EnableHistory": true
 		},
+		"atom-ctags": {
+			"autoBuildTagsWhenActive": true
+		},
 		"core": {
 			"autoHideMenuBar": true,
 			"closeDeletedFileTabs": true,
@@ -101,9 +104,6 @@
 		},
 		"welcome": {
 			"showOnStartup": false
-		},
-		"atom-ctags": {
-			"autoBuildTagsWhenActive": true
 		}
 	}
 }
