@@ -6,6 +6,12 @@
 				"screenShake": true
 			}
 		},
+		"atom-clock": {
+			"dateFormat": "[Quarter] Q, MMMM Do YYYY, ddd, h:mm a",
+			"locale": "zh_CN",
+			"showClockIcon": true,
+			"showTooltip": true
+		},
 		"atom-cscope": {
 			"EnableHistory": true
 		},

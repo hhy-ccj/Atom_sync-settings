@@ -8,6 +8,9 @@
 	"archive-view": {
 		"version": "0.65.2"
 	},
+	"atom-clock": {
+		"version": "0.1.18"
+	},
 	"atom-cscope": {
 		"version": "1.1.0"
 	},
@@ -346,7 +349,7 @@
 		"version": "0.118.4"
 	},
 	"sync-settings": {
-		"version": "4.3.3"
+		"version": "4.3.5"
 	},
 	"sync-settings-folder-location": {
 		"version": "1.0.9"
