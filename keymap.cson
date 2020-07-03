@@ -77,5 +77,7 @@
 # Toggle tree view
 'atom-text-editor':
   'f2': 'unset!' # default cmd:'bookmarks:jump-to-next-bookmark':
+'.tree-view':
+  'f2': 'unset!' # default cmd:'tree-view:move'
 '.platform-win32, .platform-linux':
   'f2': 'tree-view:toggle' # default:'ctrl-\\'
