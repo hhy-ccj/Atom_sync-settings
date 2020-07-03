@@ -10,15 +10,15 @@
 #   editor.onDidSave ->
 #     console.log "Saved! #{editor.getPath()}"
 
-# add command for vim-mode-plus, move up 5 steps
+# Add command for vim-mode-plus, move up 5 steps
 atom.commands.add 'atom-text-editor', 'custom:do-5-k': (e) ->
    atom.commands.dispatch(e.currentTarget, 'vim-mode-plus:set-count-5')
    atom.commands.dispatch(e.currentTarget, 'vim-mode-plus:move-up')
-# add command for vim-mode-plus, move down 5 steps
+# Add command for vim-mode-plus, move down 5 steps
 atom.commands.add 'atom-text-editor', 'custom:do-5-j': (e) ->
    atom.commands.dispatch(e.currentTarget, 'vim-mode-plus:set-count-5')
    atom.commands.dispatch(e.currentTarget, 'vim-mode-plus:move-down')
-# add command for vim-mode-plus, move left 5 steps
+# Add command for vim-mode-plus, move left 5 steps
 atom.commands.add 'atom-text-editor', 'custom:do-5-h': (e) ->
    atom.commands.dispatch(e.currentTarget, 'vim-mode-plus:set-count-5')
    atom.commands.dispatch(e.currentTarget, 'vim-mode-plus:move-left')
@@ -26,8 +26,23 @@ atom.commands.add 'atom-text-editor', 'custom:do-5-h': (e) ->
 atom.commands.add 'atom-text-editor', 'custom:do-5-l': (e) ->
    atom.commands.dispatch(e.currentTarget, 'vim-mode-plus:set-count-5')
    atom.commands.dispatch(e.currentTarget, 'vim-mode-plus:move-right')
-# add command for vim-mode-plus, paste 0 register
+# Add command for vim-mode-plus, paste 0 register
 atom.commands.add 'atom-text-editor', 'custom:paste-0-reg': (e) ->
    atom.commands.dispatch(e.currentTarget, 'vim-mode-plus:set-register-name')
    atom.commands.dispatch(e.currentTarget, 'vim-mode-plus:set-input-char-0')
    atom.commands.dispatch(e.currentTarget, 'vim-mode-plus:put-after')
+
+# Add command for tree-view, move up 5 steps
+atom.commands.add '.tree-view', 'custom:tree-do-5-k': (e) ->
+   atom.commands.dispatch(e.currentTarget, 'core:move-up')
+   atom.commands.dispatch(e.currentTarget, 'core:move-up')
+   atom.commands.dispatch(e.currentTarget, 'core:move-up')
+   atom.commands.dispatch(e.currentTarget, 'core:move-up')
+   atom.commands.dispatch(e.currentTarget, 'core:move-up')
+# Add command for tree-view, move down 5 steps
+atom.commands.add '.tree-view', 'custom:tree-do-5-j': (e) ->
+   atom.commands.dispatch(e.currentTarget, 'core:move-down')
+   atom.commands.dispatch(e.currentTarget, 'core:move-down')
+   atom.commands.dispatch(e.currentTarget, 'core:move-down')
+   atom.commands.dispatch(e.currentTarget, 'core:move-down')
+   atom.commands.dispatch(e.currentTarget, 'core:move-down')
