@@ -32,7 +32,7 @@
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#configuring-with-cson
 
 # ------------------------------------
-# For vim-mode-plus key remap
+# Let the editor more like the vim
 # ------------------------------------
 # Vim normal mode
 'atom-text-editor.vim-mode-plus:not(.insert-mode)':
@@ -44,7 +44,8 @@
   'H': 'custom:do-5-h'
   'L': 'custom:do-5-l'
   # Copy the vim command mode
-  'space': 'command-palette:toggle'
+  # 'space': 'command-palette:toggle'
+  'space': 'ex-mode:open'
   # Paste the 0 register
   '; p': 'custom:paste-0-reg'
   # Move to other pane
@@ -53,6 +54,8 @@
   'ctrl-h': 'window:focus-pane-on-left'
   'ctrl-l': 'window:focus-pane-on-right'
   '\\ f s': 'atom-cscope:find-text-string'
+  'shift-f': 'atom-cscope:toggle-file'
+
 # Vim insert mode
 'atom-text-editor.vim-mode-plus.insert-mode':
   # Move the cursor
@@ -81,10 +84,13 @@
 '.tree-view':
   'f2': 'unset!' # default cmd:'tree-view:move'
   # Open the dir or the file like in the vim
-  'o': 'tree-view:open-selected-entry' # default key: 'enter'
+  'o': 'tree-view:open-selected-entry' # default key:'enter'
   # Move the cursor 5 steps at a time like in the vim
   'K': 'custom:tree-do-5-k'
   'J': 'custom:tree-do-5-j'
+  # Move the cursor to the top or buttom like in the vim
+  'g g': 'core:move-to-top' # default key:'home'
+  'G': 'core:move-to-bottom' # default key:'end'
 '.platform-win32, .platform-linux':
   # Let F2 toggle the tree view
   'f2': 'tree-view:toggle' # default key:'ctrl-\\'

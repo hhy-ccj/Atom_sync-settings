@@ -13,7 +13,9 @@
 			"showTooltip": true
 		},
 		"atom-cscope": {
-			"EnableHistory": true
+			"EnableHistory": true,
+			"MaxCscopeResults": 100,
+			"WidgetLocation": "bottom"
 		},
 		"atom-ctags": {
 			"autoBuildTagsWhenActive": true
@@ -39,8 +41,8 @@
 			"restorePreviousWindowsOnStart": "no",
 			"telemetryConsent": "no",
 			"themes": [
-				"dracula-ui",
-				"dracula-syntax"
+				"steam-pirate-ui",
+				"steam-pirate-syntax"
 			],
 			"uriHandlerRegistration": "always"
 		},
@@ -54,12 +56,17 @@
 			"showIndentGuide": true,
 			"softWrap": true
 		},
+		"ex-mode": {},
 		"exception-reporting": {
 			"userId": "0de6819b-4432-47c1-a890-45133950981b"
 		},
 		"gcc-make-run": {},
 		"github": {
 			"viewChangesForCurrentFileDiffPaneSplitDirection": "down"
+		},
+		"glowing-cursor": {
+			"cursorWidth": 10,
+			"glowDistance": 8
 		},
 		"goto-definition": {
 			"contextMenuDisplayAtFirst": false
@@ -98,7 +105,12 @@
 				"minimap-quick-highlightDecorationsZIndex": 0
 			}
 		},
+		"relative-numbers": {
+			"showAbsoluteNumbers": true,
+			"softWrapsCount": false
+		},
 		"sync-settings": {
+			"checkForUpdatedBackup": false,
 			"hiddenSettings": {},
 			"useOtherLocation": true
 		},
