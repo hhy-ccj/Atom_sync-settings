@@ -97,7 +97,6 @@
 			"useGitHubStyle": true
 		},
 		"minimap": {
-			"displayMinimapOnLeft": true,
 			"plugins": {
 				"highlight-selected": true,
 				"highlight-selectedDecorationsZIndex": 0,
@@ -108,6 +107,10 @@
 		"relative-numbers": {
 			"showAbsoluteNumbers": true,
 			"softWrapsCount": false
+		},
+		"steam-pirate-ui": {
+			"backgroundImage": "http://img.3dmgame.com/uploads/allimg/170710/316-1FG0140Q7.jpg",
+			"blurBackground": "1"
 		},
 		"sync-settings": {
 			"checkForUpdatedBackup": false,
