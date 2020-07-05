@@ -1,6 +1,7 @@
 {
 	"*": {
 		"activate-power-mode": {
+			"autoToggle": false,
 			"plugins": {
 				"playAudio": true,
 				"screenShake": true
@@ -18,7 +19,8 @@
 			"WidgetLocation": "bottom"
 		},
 		"atom-ctags": {
-			"autoBuildTagsWhenActive": true
+			"autoBuildTagsWhenActive": true,
+			"cmd": "sync.bat"
 		},
 		"autocomplete-plus": {
 			"maxVisibleSuggestions": 5
@@ -39,9 +41,15 @@
 				"linter-gcc",
 				"linter-ui-default",
 				"atom-cscope",
-				"symbols-view"
+				"symbols-view",
+				"goto-definition",
+				"last-cursor-position",
+				"structure-view"
 			],
 			"openEmptyEditorOnStart": false,
+			"packagesWithKeymapsDisabled": [
+				"symbols-tree-nav"
+			],
 			"restorePreviousWindowsOnStart": "no",
 			"telemetryConsent": "no",
 			"themes": [
@@ -49,6 +57,12 @@
 				"steam-pirate-syntax"
 			],
 			"uriHandlerRegistration": "always"
+		},
+		"ctags-status": {},
+		"cursor-history": {
+			"keepSingleEntryPerBuffer": true,
+			"rowDeltaToRemember": 1,
+			"searchAllPanes": false
 		},
 		"dev-tools-themes": {
 			"theme": "nightlion"
@@ -64,6 +78,12 @@
 		"ex-mode": {},
 		"exception-reporting": {
 			"userId": "0de6819b-4432-47c1-a890-45133950981b"
+		},
+		"file-hyperclick": {
+			"directories": [
+				"apps/mesh"
+			],
+			"extension": ".c"
 		},
 		"find-and-replace": {
 			"closeFindPanelAfterSearch": true,
@@ -92,7 +112,7 @@
 			"glowDistance": 8
 		},
 		"goto-definition": {
-			"contextMenuDisplayAtFirst": false
+			"performanceMode": true
 		},
 		"gtk-dark-theme": {},
 		"highlight-selected": {
@@ -120,6 +140,8 @@
 			"useGitHubStyle": true
 		},
 		"minimap": {
+			"autoToggle": false,
+			"moveCursorOnMinimapClick": true,
 			"plugins": {
 				"highlight-selected": true,
 				"highlight-selectedDecorationsZIndex": 0,
@@ -134,6 +156,15 @@
 		"steam-pirate-ui": {
 			"backgroundImage": " http://pic.netbian.com/uploads/allimg/200627/004758-15931900782589.jpg"
 		},
+		"structure-view": {
+			"AutoscrollFromSource": true
+		},
+		"symbols-tree-nav": {
+			"collapsedByDefault": true,
+			"colorsFromSyntaxTheme": true,
+			"customColors": true,
+			"minTitlesLength": 0
+		},
 		"sync-settings": {
 			"checkForUpdatedBackup": false,
 			"hiddenSettings": {},
@@ -145,9 +176,11 @@
 		"sync-settings-git-location": {
 			"gitUrl": "https://github.com/hhy-ccj/Atom_sync-settings"
 		},
+		"tree-view-git-status": {
+			"gitFlow": {}
+		},
 		"welcome": {
 			"showOnStartup": false
-		},
-		"cursor-history": {}
+		}
 	}
 }

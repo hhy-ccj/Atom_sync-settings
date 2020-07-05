@@ -91,6 +91,9 @@
 	"command-palette": {
 		"version": "0.43.5"
 	},
+	"ctags-status": {
+		"version": "1.4.0"
+	},
 	"cursor-history": {
 		"version": "0.14.0"
 	},
@@ -149,6 +152,9 @@
 	},
 	"highlight-selected": {
 		"version": "0.17.0"
+	},
+	"hyperclick": {
+		"version": "0.1.5"
 	},
 	"image-view": {
 		"version": "0.64.0"
@@ -366,8 +372,14 @@
 		"version": "0.6.1",
 		"theme": "ui"
 	},
+	"structure-view": {
+		"version": "0.2.1"
+	},
 	"styleguide": {
 		"version": "0.49.12"
+	},
+	"symbols-tree-nav": {
+		"version": "0.15.5"
 	},
 	"symbols-view": {
 		"version": "0.118.4"
@@ -389,6 +401,9 @@
 	},
 	"tree-view": {
 		"version": "0.228.0"
+	},
+	"tree-view-git-status": {
+		"version": "1.5.3"
 	},
 	"update-package-dependencies": {
 		"version": "0.13.1"
