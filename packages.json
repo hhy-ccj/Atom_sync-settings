@@ -372,9 +372,6 @@
 		"version": "0.6.1",
 		"theme": "ui"
 	},
-	"structure-view": {
-		"version": "0.2.1"
-	},
 	"styleguide": {
 		"version": "0.49.12"
 	},

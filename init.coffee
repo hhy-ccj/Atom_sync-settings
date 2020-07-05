@@ -46,3 +46,28 @@ atom.commands.add '.tree-view', 'custom:tree-do-5-j': (e) ->
    atom.commands.dispatch(e.currentTarget, 'core:move-down')
    atom.commands.dispatch(e.currentTarget, 'core:move-down')
    atom.commands.dispatch(e.currentTarget, 'core:move-down')
+
+# Add command for cscope, toggle cscope and find-symbol
+atom.commands.add 'atom-workspace', 'custom:cscope-find-symbol': (e) ->
+   atom.commands.dispatch(e.currentTarget, 'atom-cscope:toggle')
+   atom.commands.dispatch(e.currentTarget, 'atom-cscope:find-symbol')
+# Add command for cscope, toggle cscope and find-global-definition
+atom.commands.add 'atom-workspace', 'custom:cscope-find-global-definition': (e) ->
+   atom.commands.dispatch(e.currentTarget, 'atom-cscope:toggle')
+   atom.commands.dispatch(e.currentTarget, 'atom-cscope:find-global-definition')
+# Add command for cscope, toggle cscope and find-text-string
+atom.commands.add 'atom-workspace', 'custom:cscope-find-text-string': (e) ->
+   atom.commands.dispatch(e.currentTarget, 'atom-cscope:toggle')
+   atom.commands.dispatch(e.currentTarget, 'atom-cscope:find-text-string')
+# Add command for cscope, toggle cscope and find-file
+atom.commands.add 'atom-workspace', 'custom:cscope-find-file': (e) ->
+   atom.commands.dispatch(e.currentTarget, 'atom-cscope:toggle')
+   atom.commands.dispatch(e.currentTarget, 'atom-cscope:find-file')
+# Add command for cscope, toggle cscope and find-functions-calling
+atom.commands.add 'atom-workspace', 'custom:cscope-find-functions-calling': (e) ->
+   atom.commands.dispatch(e.currentTarget, 'atom-cscope:toggle')
+   atom.commands.dispatch(e.currentTarget, 'atom-cscope:find-functions-calling')
+# Add command for cscope, toggle cscope and find-files-including
+atom.commands.add 'atom-workspace', 'custom:cscope-find-files-including': (e) ->
+   atom.commands.dispatch(e.currentTarget, 'atom-cscope:toggle')
+   atom.commands.dispatch(e.currentTarget, 'atom-cscope:find-files-including')

@@ -40,15 +40,14 @@
 				"linter",
 				"linter-gcc",
 				"linter-ui-default",
-				"atom-cscope",
 				"symbols-view",
 				"goto-definition",
-				"last-cursor-position",
-				"structure-view"
+				"last-cursor-position"
 			],
 			"openEmptyEditorOnStart": false,
 			"packagesWithKeymapsDisabled": [
-				"symbols-tree-nav"
+				"symbols-tree-nav",
+				"atom-cscope"
 			],
 			"restorePreviousWindowsOnStart": "no",
 			"telemetryConsent": "no",
