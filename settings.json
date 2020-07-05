@@ -20,6 +20,9 @@
 		"atom-ctags": {
 			"autoBuildTagsWhenActive": true
 		},
+		"autocomplete-plus": {
+			"maxVisibleSuggestions": 5
+		},
 		"core": {
 			"autoHideMenuBar": true,
 			"closeDeletedFileTabs": true,
@@ -35,6 +38,7 @@
 				"linter",
 				"linter-gcc",
 				"linter-ui-default",
+				"atom-cscope",
 				"symbols-view"
 			],
 			"openEmptyEditorOnStart": false,
@@ -50,6 +54,7 @@
 			"theme": "nightlion"
 		},
 		"editor": {
+			"fontSize": 13,
 			"invisibles": {},
 			"preferredLineLength": 500,
 			"scrollPastEnd": true,
@@ -59,6 +64,24 @@
 		"ex-mode": {},
 		"exception-reporting": {
 			"userId": "0de6819b-4432-47c1-a890-45133950981b"
+		},
+		"find-and-replace": {
+			"closeFindPanelAfterSearch": true,
+			"focusEditorAfterSearch": true,
+			"projectSearchResultsPaneSplitDirection": "right",
+			"useRipgrep": true
+		},
+		"fuzzy-finder": {
+			"ignoredNames": [
+				"*.swp",
+				"*.lua",
+				"*.jpg",
+				"*.gif",
+				"*.png",
+				"*.doc"
+			],
+			"prefillFromSelection": true,
+			"searchAllPanes": true
 		},
 		"gcc-make-run": {},
 		"github": {
@@ -109,8 +132,7 @@
 			"softWrapsCount": false
 		},
 		"steam-pirate-ui": {
-			"backgroundImage": "http://img.3dmgame.com/uploads/allimg/170710/316-1FG0140Q7.jpg",
-			"blurBackground": "1"
+			"backgroundImage": " http://pic.netbian.com/uploads/allimg/200627/004758-15931900782589.jpg"
 		},
 		"sync-settings": {
 			"checkForUpdatedBackup": false,
@@ -125,6 +147,7 @@
 		},
 		"welcome": {
 			"showOnStartup": false
-		}
+		},
+		"cursor-history": {}
 	}
 }

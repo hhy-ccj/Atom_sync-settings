@@ -49,36 +49,36 @@
   # Paste the 0 register
   '; p': 'custom:paste-0-reg'
   # Move to other pane
-  'ctrl-k': 'window:focus-pane-above'
-  'ctrl-j': 'window:focus-pane-below'
-  'ctrl-h': 'window:focus-pane-on-left'
-  'ctrl-l': 'window:focus-pane-on-right'
+  'alt-k': 'window:focus-pane-above'
+  'alt-j': 'window:focus-pane-below'
+  'alt-h': 'window:focus-pane-on-left'
+  'alt-l': 'window:focus-pane-on-right'
   '\\ f s': 'atom-cscope:find-text-string'
   'shift-f': 'atom-cscope:toggle-file'
 
 # Vim insert mode
 'atom-text-editor.vim-mode-plus.insert-mode':
   # Move the cursor
-  'ctrl-k': 'vim-mode-plus:move-up'
-  'ctrl-j': 'vim-mode-plus:move-down'
-  'ctrl-h': 'vim-mode-plus:move-left'
-  'ctrl-l': 'vim-mode-plus:move-right'
+  'alt-k': 'vim-mode-plus:move-up'
+  'alt-j': 'vim-mode-plus:move-down'
+  'alt-h': 'vim-mode-plus:move-left'
+  'alt-l': 'vim-mode-plus:move-right'
 
 # When autocomplete plus pop-up active in insert-mode
 'atom-text-editor.vim-mode-plus.insert-mode.autocomplete-active':
-  'ctrl-k': 'core:move-up'
-  'ctrl-j': 'core:move-down'
+  'alt-k': 'core:move-up'
+  'alt-j': 'core:move-down'
 
 # In select-list such like fuzzy-finder
 '.select-list atom-text-editor':
-  'ctrl-k': 'core:move-up'
-  'ctrl-j': 'core:move-down'
+  'alt-k': 'core:move-up'
+  'alt-j': 'core:move-down'
 
 # Toggle-line-comments
 'atom-workspace atom-text-editor:not([mini])':
-  '; / /': 'editor:toggle-line-comments' # default:'ctrl-/'
+  '; / /': 'editor:toggle-line-comments' # default key:'ctrl-/'
 
-# Tree view operating
+# 'Tree view' operating
 'atom-text-editor':
   'f2': 'unset!' # default cmd:'bookmarks:jump-to-next-bookmark':
 '.tree-view':
@@ -95,5 +95,21 @@
   # Let F2 toggle the tree view
   'f2': 'tree-view:toggle' # default key:'ctrl-\\'
   # Move the cursor like in the vim
-  'ctrl-h': 'tree-view:toggle-focus' # default key:'alt-\\'
-  'ctrl-l': 'tree-view:toggle-focus' # default key:'alt-\\'
+  # 'alt-h': 'tree-view:toggle-focus' # default key:'alt-\\'
+  # 'alt-l': 'tree-view:toggle-focus' # default key:'alt-\\'
+
+# 'Project Find Results' pane operating
+'body':
+  'alt-k': 'core:move-up' # default key:'up'
+  'alt-j': 'core:move-down' # default key:'down'
+  'alt-o': 'core:confirm' # default key:'enter'
+  'alt-h': 'window:focus-pane-on-left'
+  'alt-l': 'window:focus-pane-on-right'
+
+# 'Cursor History' package's keymap
+# Like browser's Go and Back button, like ctrl-i, ctrl-o in Vim. You can go/back to cursor position history.
+'atom-workspace':
+  'ctrl-i': 'cursor-history:next'
+  'ctrl-o': 'cursor-history:prev'
+  # 'ctrl-cmd-i': 'cursor-history:next-within-editor'
+  # 'ctrl-cmd-o': 'cursor-history:prev-within-editor'

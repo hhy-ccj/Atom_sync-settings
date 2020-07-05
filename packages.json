@@ -91,6 +91,9 @@
 	"command-palette": {
 		"version": "0.43.5"
 	},
+	"cursor-history": {
+		"version": "0.14.0"
+	},
 	"dalek": {
 		"version": "0.2.2"
 	},
