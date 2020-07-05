@@ -71,3 +71,8 @@ atom.commands.add 'atom-workspace', 'custom:cscope-find-functions-calling': (e) 
 atom.commands.add 'atom-workspace', 'custom:cscope-find-files-including': (e) ->
    atom.commands.dispatch(e.currentTarget, 'atom-cscope:toggle')
    atom.commands.dispatch(e.currentTarget, 'atom-cscope:find-files-including')
+# Add command for cscope, toggle cscope and toggle-file
+atom.commands.add 'atom-workspace', 'custom:cscope-toggle-file': (e) ->
+   atom.commands.dispatch(e.currentTarget, 'atom-cscope:toggle')
+   atom.commands.dispatch(e.currentTarget, 'atom-cscope:toggle')
+   atom.commands.dispatch(e.currentTarget, 'atom-cscope:toggle-file')

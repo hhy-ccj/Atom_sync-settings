@@ -127,13 +127,14 @@
   # '\\ f f': 'atom-cscope:find-file'
   # '\\ f c': 'atom-cscope:find-functions-calling'
   # '\\ f i': 'atom-cscope:find-files-including'
+  # 'shift-f': 'atom-cscope:toggle-file'
   '\\ f s': 'custom:cscope-find-symbol'
   '\\ f g': 'custom:cscope-find-global-definition'
   '\\ f t': 'custom:cscope-find-text-string'
   '\\ f f': 'custom:cscope-find-file'
   '\\ f c': 'custom:cscope-find-functions-calling'
   '\\ f i': 'custom:cscope-find-files-including'
-  'shift-f': 'atom-cscope:toggle-file'
+  '; f f': 'custom:cscope-toggle-file'
 
 # 'Atom-Ctags' package's keymap
 '.platform-win32 atom-text-editor':
