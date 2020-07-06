@@ -88,6 +88,9 @@
 	"busy-signal": {
 		"version": "2.0.1"
 	},
+	"clipboard-plus": {
+		"version": "0.5.1"
+	},
 	"command-palette": {
 		"version": "0.43.5"
 	},

@@ -43,9 +43,6 @@
   'J': 'custom:do-5-j'
   'H': 'custom:do-5-h'
   'L': 'custom:do-5-l'
-  # Copy the vim command mode
-  # 'space': 'command-palette:toggle'
-  'space': 'ex-mode:open'
   # Paste the 0 register
   '; p': 'custom:paste-0-reg'
   # Move to other pane
@@ -55,6 +52,34 @@
   'alt-l': 'window:focus-pane-on-right'
   # Restore current file search function
   'ctrl-f': 'unset!' # default cmd:'vim-mode-plus:scroll-full-screen-down'
+# 'ex-mode' package keymap, Copy the vim command mode
+  # 'space': 'command-palette:toggle'
+  'space': 'ex-mode:open'
+# 'symbols-tree-nav' package keymap
+  # 'ctrl-alt-o': 'unset!' # default cmd:'symbols-tree-nav:toggle'
+  't l': 'symbols-tree-nav:toggle' # default key:'ctrl-alt-o'
+# 'atom-ctags' package keymap
+  'f o': 'atom-ctags:go-to-declaration' # default key:'f12'
+  # 'f f': 'atom-ctags:toggle-file-symbols' # default key:'ctrl-r'
+  # 'f p': 'atom-ctags:toggle-project-symbols'
+# 'atom-cscope' package keymap
+  '; f t': 'atom-cscope:toggle' # default key:'ctrl-alt-o'
+  # '\\ f s': 'atom-cscope:find-symbol'
+  # '\\ f g': 'atom-cscope:find-global-definition'
+  # '\\ f t': 'atom-cscope:find-text-string'
+  # '\\ f f': 'atom-cscope:find-file'
+  # '\\ f c': 'atom-cscope:find-functions-calling'
+  # '\\ f i': 'atom-cscope:find-files-including'
+  # 'shift-f': 'atom-cscope:toggle-file'
+  '\\ f s': 'custom:cscope-find-symbol'
+  '\\ f g': 'custom:cscope-find-global-definition'
+  '\\ f t': 'custom:cscope-find-text-string'
+  '\\ f f': 'custom:cscope-find-file'
+  '\\ f c': 'custom:cscope-find-functions-calling'
+  '\\ f i': 'custom:cscope-find-files-including'
+  '; f f': 'custom:cscope-toggle-file'
+# Toggle-line-comments
+  '; / /': 'editor:toggle-line-comments' # default key:'ctrl-/'
 
 # Vim insert mode
 'atom-text-editor.vim-mode-plus.insert-mode':
@@ -73,10 +98,6 @@
 '.select-list atom-text-editor':
   'alt-k': 'core:move-up'
   'alt-j': 'core:move-down'
-
-# Toggle-line-comments
-'atom-workspace atom-text-editor:not([mini])':
-  '; / /': 'editor:toggle-line-comments' # default key:'ctrl-/'
 
 # 'Tree view' operating
 'atom-text-editor':
@@ -109,38 +130,16 @@
   'ctrl-2': 'pane:show-next-item' # default key:'ctrl-pageup'
   'ctrl-1': 'pane:show-previous-item' # default key:'ctrl-pagedown'
 
-# 'Cursor History' package's keymap
+# 'Cursor History' package keymap
 # Like browser's Go and Back button, like ctrl-i, ctrl-o in Vim. You can go/back to cursor position history.
 'atom-workspace':
   'ctrl-i': 'cursor-history:next'
   'ctrl-o': 'cursor-history:prev'
   # 'ctrl-cmd-i': 'cursor-history:next-within-editor'
   # 'ctrl-cmd-o': 'cursor-history:prev-within-editor'
-# 'symbols-tree-nav' package's keymap
-  # 'ctrl-alt-o': 'unset!' # default cmd:'symbols-tree-nav:toggle'
-  't l': 'symbols-tree-nav:toggle' # default key:'ctrl-alt-o'
-# 'cscope' package's keymap
-  '; f t': 'atom-cscope:toggle' # default key:'ctrl-alt-o'
-  # '\\ f s': 'atom-cscope:find-symbol'
-  # '\\ f g': 'atom-cscope:find-global-definition'
-  # '\\ f t': 'atom-cscope:find-text-string'
-  # '\\ f f': 'atom-cscope:find-file'
-  # '\\ f c': 'atom-cscope:find-functions-calling'
-  # '\\ f i': 'atom-cscope:find-files-including'
-  # 'shift-f': 'atom-cscope:toggle-file'
-  '\\ f s': 'custom:cscope-find-symbol'
-  '\\ f g': 'custom:cscope-find-global-definition'
-  '\\ f t': 'custom:cscope-find-text-string'
-  '\\ f f': 'custom:cscope-find-file'
-  '\\ f c': 'custom:cscope-find-functions-calling'
-  '\\ f i': 'custom:cscope-find-files-including'
-  '; f f': 'custom:cscope-toggle-file'
 
-# 'Atom-Ctags' package's keymap
-'.platform-win32 atom-text-editor':
-  'f o': 'atom-ctags:go-to-declaration' # default key:'f12'
-  # 'f f': 'atom-ctags:toggle-file-symbols' # default key:'ctrl-r'
-  # 'f p': 'atom-ctags:toggle-project-symbols'
-
+# 'clipboard-plus' package keymap
 'atom-text-editor.vim-mode-plus':
   'ctrl-c': 'unset!' # default cmd:'vim-mode-plus:reset-normal-mode'
+'.platform-win32 atom-text-editor:not([mini])':
+  'ctrl-shift-v': 'clipboard-plus:toggle'

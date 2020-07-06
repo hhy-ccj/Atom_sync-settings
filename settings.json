@@ -25,6 +25,7 @@
 		"autocomplete-plus": {
 			"maxVisibleSuggestions": 5
 		},
+		"clipboard-history": {},
 		"core": {
 			"autoHideMenuBar": true,
 			"closeDeletedFileTabs": true,
@@ -42,7 +43,14 @@
 				"linter-ui-default",
 				"symbols-view",
 				"goto-definition",
-				"last-cursor-position"
+				"last-cursor-position",
+				"autocomplete-paths",
+				"language-markdown",
+				"markdown-preview-plus",
+				"autocomplete-css",
+				"autocomplete-html",
+				"autocomplete-atom-api",
+				"autocomplete-snippets"
 			],
 			"openEmptyEditorOnStart": false,
 			"packagesWithKeymapsDisabled": [
@@ -67,7 +75,7 @@
 			"theme": "nightlion"
 		},
 		"editor": {
-			"fontSize": 13,
+			"fontSize": 16,
 			"invisibles": {},
 			"preferredLineLength": 500,
 			"scrollPastEnd": true,
@@ -153,7 +161,8 @@
 			"softWrapsCount": false
 		},
 		"steam-pirate-ui": {
-			"backgroundImage": " http://pic.netbian.com/uploads/allimg/200627/004758-15931900782589.jpg"
+			"backgroundImage": "http://pic.netbian.com/uploads/allimg/200627/004758-15931900782589.jpg",
+			"fontSize": 13
 		},
 		"structure-view": {
 			"AutoscrollFromSource": true
@@ -177,6 +186,12 @@
 		},
 		"tree-view-git-status": {
 			"gitFlow": {}
+		},
+		"vim-mode-plus": {
+			"useClipboardAsDefaultRegister": true
+		},
+		"wakatime": {
+			"apikey": "Enter your api key..."
 		},
 		"welcome": {
 			"showOnStartup": false
