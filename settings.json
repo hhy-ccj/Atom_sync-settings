@@ -52,7 +52,8 @@
 				"pdf-view-plus",
 				"atom-cscope",
 				"atom-ctags",
-				"ctags-status"
+				"ctags-status",
+				"language-batchfile"
 			],
 			"openEmptyEditorOnStart": false,
 			"packagesWithKeymapsDisabled": [
