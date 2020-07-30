@@ -45,12 +45,14 @@
 				"goto-definition",
 				"last-cursor-position",
 				"autocomplete-paths",
-				"language-markdown",
-				"markdown-preview-plus",
 				"autocomplete-css",
 				"autocomplete-html",
 				"autocomplete-atom-api",
-				"autocomplete-snippets"
+				"autocomplete-snippets",
+				"pdf-view-plus",
+				"atom-cscope",
+				"atom-ctags",
+				"ctags-status"
 			],
 			"openEmptyEditorOnStart": false,
 			"packagesWithKeymapsDisabled": [
@@ -156,6 +158,7 @@
 				"minimap-quick-highlightDecorationsZIndex": 0
 			}
 		},
+		"pdf-view": {},
 		"relative-numbers": {
 			"showAbsoluteNumbers": true,
 			"softWrapsCount": false
